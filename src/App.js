@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./components/common/Headers/Header";
 
 const App=()=>{
         return(
-                <h1>reza</h1>
+                <React.Fragment>
+                        <Header/>
+                </React.Fragment>
         )
 }
 
