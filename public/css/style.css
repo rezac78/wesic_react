@@ -51,29 +51,43 @@ body{
     border-radius: 50px;
     width: 90%;
 }
-.headerStart{
-    display: flex;
+.headerStartRigth{
+    background-color: red;
 }
-
-.headerStart ul{
+.headerStartCenter{
+    background-color: green;
+}
+.headerStartLeft{
+    background-color: blue;
+    width: 100%;
+}
+.headerStartLeft a{
+    margin: auto;
+    color: black;
+    font-size: 1.3pc;
+    padding: 0px 20px;
+    direction:;
+}
+.headerStartRigth ul{
     display: flex;
     margin: 20px;
 }
-.headerStart li{
+.headerStartRigth li{
     color: black;
     font-size: 1.2pc;
     padding: 10px;
 }
-.headerStart input{
+.headerStartCenter input{
     height: 5vh;
-    margin: auto;
+    margin: 15px 0px;
     border-radius: 50px;
     border: none;
     text-align: center;
 }
+/*
 .headerStart a{
     margin: auto;
     color: black;
     font-size: 1.3pc;
     padding: 0px 20px;
-}
+} */
